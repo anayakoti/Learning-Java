@@ -1,0 +1,4 @@
+String firstName="Anudeep";
+String lastName="Nayakoti";
+
+System.out.println(" My fullname is " +firstName +" "+lastName);
