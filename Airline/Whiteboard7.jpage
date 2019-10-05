@@ -1,0 +1,4 @@
+double rollNumber=12;
+System.out.println(rollNumber);
+
+//Automatically converted the integers to Floating types.
