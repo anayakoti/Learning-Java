@@ -1,0 +1,5 @@
+LocalDate TodaysDate=LocalDate.now();
+//System.out.println(TodaysDate);
+
+LocalDate RentDue=TodaysDate.plusDays(30);
+System.out.println(RentDue);
