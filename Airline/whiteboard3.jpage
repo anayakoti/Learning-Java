@@ -1,0 +1,4 @@
+int MinageForSmoking=18;
+int Customerage=29;
+boolean legalAge=Customerage>=MinageForSmoking;
+System.out.println(legalAge);
