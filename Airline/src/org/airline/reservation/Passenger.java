@@ -8,7 +8,7 @@ package org.airline.reservation;
 public class Passenger {
 	
  //Creating the fields
-	private String name;
+	private String name;//This is an in-line comment
 	
 	//Lets create a constructor
 	public Passenger() {
