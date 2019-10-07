@@ -16,5 +16,21 @@ public class Passenger {
 		//Names are given while create new object or new passenger to give different name.
 		System.out.println(name);
 	}
+	
+//Working with Getter now 
+	public String getterName() {
+		return name; //The main purpose of Getter funtionality is to get the value of 'name' field
+		
+		
+	}
+	
+ // If we want to Manipulate the name value, we use Setter
+	
+	public void setName(String newName)
+	{
+		name=newName;
+		//Now the 'New string name values will be updated to the 'name' field value
+		//We use Void because it doesn't return the value
+	}
 
 }
