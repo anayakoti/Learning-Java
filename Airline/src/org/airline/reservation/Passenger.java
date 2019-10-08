@@ -14,7 +14,7 @@ public class Passenger {
 	public Passenger() {
 		name="Not known Yet!";
 		//Names are given while create new object or new passenger to give different name.
-		System.out.println(name);
+		//System.out.println(name);
 	}
 	
 //Working with Getter now 
