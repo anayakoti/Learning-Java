@@ -1,0 +1,2 @@
+//In this Scrapbook, we are creating a new 'passenger1' object using public Passenger class inside a package.
+Passenger passenger1=new Passenger();
