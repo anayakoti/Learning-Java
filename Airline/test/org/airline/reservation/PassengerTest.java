@@ -13,10 +13,7 @@ public class PassengerTest {
 	 assertEquals("Not known Yet!", result);
 	}
 
-	@Test
-	public void testGetterName() {
-		fail("Not yet implemented");
-	}
+
 
 	@Test
 	public void testSetName() {
