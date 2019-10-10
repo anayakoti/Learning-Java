@@ -17,7 +17,9 @@ public class PassengerTest {
 
 	@Test
 	public void testSetName() {
-		fail("Not yet implemented");
+		Passenger testPassenger2 = new Passenger();
+		testPassenger2.setName("Anudeep Nayakoti");
+		assertEquals("Anudeep Nayakoti", testPassenger2.getterName());
 	}
 
 }
