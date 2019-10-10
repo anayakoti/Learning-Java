@@ -26,6 +26,14 @@ public class Flight {
 		this.getArrivalCity = getArrivalCity;
 	}
 
+	public int getGetFlightNumber() {
+		return getFlightNumber;
+	}
+
+	public void setGetFlightNumber(int getFlightNumber) {
+		this.getFlightNumber = getFlightNumber;
+	}
+
 	
 
 }

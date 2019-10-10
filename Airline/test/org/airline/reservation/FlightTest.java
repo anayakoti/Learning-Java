@@ -12,7 +12,7 @@ class FlightTest {
 		Flight testFlight1 = new Flight();
 		assertEquals("Unknowncity", testFlight1.getGetDepartureCity());
 		assertEquals("UnknownCountry", testFlight1.getGetArrivalCity());
-		assertEquals(100,testFlight1.getFlightNumber);
+		assertEquals(100,testFlight1.getGetFlightNumber());
 		
 	}
 
