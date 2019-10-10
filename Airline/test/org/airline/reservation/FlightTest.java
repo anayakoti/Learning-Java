@@ -9,7 +9,7 @@ class FlightTest {
 	@Test
 	void test() {
 	//Lets create flight objects
-		Flight testFlight1 = new Flight(100);
+		Flight testFlight1 = new Flight();
 		assertEquals("Unknowncity", testFlight1.getDepartureCity);
 		assertEquals("UnknownCountry", testFlight1.getArrivalCity);
 		assertEquals(100,testFlight1.getFlightNumber);
