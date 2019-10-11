@@ -2,36 +2,40 @@ package org.airline.reservation;
 
 public class Flight {
 
-	private String getDepartureCity;
-	private String getArrivalCity;
-	private int getFlightNumber;
+	private String departureCity;
+	private String arrivalCity;
+	private int flightNumber;
 
 	public Flight() {
-		// TODO Auto-generated constructor stub
+		//Finishing the Constructor
+		departureCity="unknownCity";
+		arrivalCity="unknownCountry";
+		flightNumber=100;
+		
 	}
 
 	public String getDepartureCity() {
-		return getDepartureCity;
+		return departureCity;
 	}
 
-	public void setDepartureCity(String getDepartureCity) {
-		this.getDepartureCity = getDepartureCity;
+	public void setDepartureCity(String departureCity) {
+		this.departureCity = departureCity;
 	}
 
 	public String getArrivalCity() {
-		return getArrivalCity;
+		return arrivalCity;
 	}
 
-	public void setArrivalCity(String getArrivalCity) {
-		this.getArrivalCity = getArrivalCity;
+	public void setArrivalCity(String arrivalCity) {
+		this.arrivalCity = arrivalCity;
 	}
 
 	public int getFlightNumber() {
-		return getFlightNumber;
+		return flightNumber;
 	}
 
-	public void setFlightNumber(int getFlightNumber) {
-		this.getFlightNumber = getFlightNumber;
+	public void setFlightNumber(int flightNumber) {
+		this.flightNumber = flightNumber;
 	}
 
 	
