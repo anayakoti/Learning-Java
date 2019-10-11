@@ -10,27 +10,27 @@ public class Flight {
 		// TODO Auto-generated constructor stub
 	}
 
-	public String getGetDepartureCity() {
+	public String getDepartureCity() {
 		return getDepartureCity;
 	}
 
-	public void setGetDepartureCity(String getDepartureCity) {
+	public void setDepartureCity(String getDepartureCity) {
 		this.getDepartureCity = getDepartureCity;
 	}
 
-	public String getGetArrivalCity() {
+	public String getArrivalCity() {
 		return getArrivalCity;
 	}
 
-	public void setGetArrivalCity(String getArrivalCity) {
+	public void setArrivalCity(String getArrivalCity) {
 		this.getArrivalCity = getArrivalCity;
 	}
 
-	public int getGetFlightNumber() {
+	public int getFlightNumber() {
 		return getFlightNumber;
 	}
 
-	public void setGetFlightNumber(int getFlightNumber) {
+	public void setFlightNumber(int getFlightNumber) {
 		this.getFlightNumber = getFlightNumber;
 	}
 
