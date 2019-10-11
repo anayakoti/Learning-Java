@@ -19,7 +19,7 @@ public class Passenger {
 	
 //Working with Getter now 
 	public String getterName() {
-		return name; //The main purpose of Getter funtionality is to get the value of 'name' field
+		return name; //The main purpose of Getter functionality is to get the value of 'name' field
 		
 		
 	}
@@ -33,7 +33,7 @@ public class Passenger {
 		//We use Void because it doesn't return the value
 	}
 	
-	//Here I am about to create Tostring() 
+	//Here I am about to create Tostring 
 	public String toString() {
 		return "Passenger"+this.getterName();
 	}

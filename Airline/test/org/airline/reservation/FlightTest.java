@@ -1,10 +1,9 @@
 package org.airline.reservation;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
 
-import org.junit.jupiter.api.Test;
-
-class FlightTest {
+import org.junit.Test;
+public class FlightTest {
 
 	@Test
 	public void flightTest() {
@@ -43,7 +42,7 @@ class FlightTest {
 	//While testing the setter methods, we need to create a new objects
 		Flight flightTest3 = new Flight();
 		flightTest3.setFlightNumber(1202);
-		assertEquals(100, flightTest3.getFlightNumber());
+		assertEquals(1202, flightTest3.getFlightNumber());
 		
 		
 	}

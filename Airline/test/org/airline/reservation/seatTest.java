@@ -1,13 +1,12 @@
 package org.airline.reservation;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
 
-import org.junit.jupiter.api.Test;
-
-class seatTest {
+import org.junit.Test;
+public class seatTest {
 
 	@Test
-	public void testSeat() {
+	public  void testSeat() {
 	//Now lets test the constructor 
 		Seat seatNumber1 = new Seat();
 		assertEquals(1202, seatNumber1.getSeatNumber());
