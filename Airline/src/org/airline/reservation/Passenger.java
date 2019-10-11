@@ -32,5 +32,10 @@ public class Passenger {
 		//Now the 'New string name values will be updated to the 'name' field value
 		//We use Void because it doesn't return the value
 	}
+	
+	//Here I am about to create Tostring() 
+	public String toString() {
+		return "Passenger"+this.getterName();
+	}
 
 }

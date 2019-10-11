@@ -1,0 +1,2 @@
+Passenger passenger1 = new Passenger();passenger1.setName("Anudeep");
+System.out.println(passenger1);
