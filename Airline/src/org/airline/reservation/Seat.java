@@ -13,13 +13,6 @@ public class Seat {
  public Seat(int seatNumber) {
 	 
  }
- 
- 
- 
- 
- 
- 
- 
  //Getters and Setters
  public  int getSeatNumber()
  {
@@ -29,5 +22,12 @@ public class Seat {
 	this.seatNumber=seatNumber;
 	 
  }
+ 
+ //Creating toString
+
+	public String toString() {
+		return "Seat"+this.getSeatNumber();
+	}
+ 
  
 }

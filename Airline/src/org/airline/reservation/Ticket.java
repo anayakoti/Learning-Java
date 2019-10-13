@@ -55,6 +55,9 @@ public void setSeat(Seat seat) {
 	this.seat = seat;
 }
 
-
+//Here I am about to create Tostring 
+	public String toString() {
+		return "Ticket"+this.getPassenger()+this.getFlight()+this.getDepartureDate()+this.getSeat();
+	}
 
 }

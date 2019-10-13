@@ -18,12 +18,9 @@ public class Flight {
 	//Creating second Constructor
 	
 	public Flight(int flightNumber, String departureCity, String arrivalCity)
+	{
 		
 	}
-	
-	
-	
-	
 	//getters and Setters
 	public String getDepartureCity() {
 		return departureCity;
@@ -48,7 +45,10 @@ public class Flight {
 	public void setFlightNumber(int flightNumber) {
 		this.flightNumber = flightNumber;
 	}
-
+	//Creating ToString Method
+		public String toString() {
+			return "Flight"+this.getFlightNumber()+this.getDepartureCity()+this.getArrivalCity();
+		}
 	
 
 }
