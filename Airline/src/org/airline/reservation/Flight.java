@@ -13,7 +13,18 @@ public class Flight {
 		flightNumber=100;
 		
 	}
-
+    
+	
+	//Creating second Constructor
+	
+	public Flight(int flightNumber, String departureCity, String arrivalCity)
+		
+	}
+	
+	
+	
+	
+	//getters and Setters
 	public String getDepartureCity() {
 		return departureCity;
 	}

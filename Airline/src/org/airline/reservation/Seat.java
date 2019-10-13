@@ -9,6 +9,18 @@ public class Seat {
 	 seatNumber=1202;
  }
  
+//Creating Second Constructor
+ public Seat(int seatNumber) {
+	 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ //Getters and Setters
  public  int getSeatNumber()
  {
 	return seatNumber; 
