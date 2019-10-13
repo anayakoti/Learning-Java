@@ -14,5 +14,12 @@ class ticketTest {
 		testTicket1.setPassenger(testPassenger1);
 		assertEquals("Akarshana", testTicket1.getPassenger().getterName());
 	}
+	
+	
+
+	
+	
+	
+	
 
 }
