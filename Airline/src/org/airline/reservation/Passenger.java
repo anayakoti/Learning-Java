@@ -16,6 +16,16 @@ public class Passenger {
 		//Names are given while create new object or new passenger to give different name.
 		//System.out.println(name);
 	}
+	// Creating Multiple Constructors
+	//In this Constructor we are passing arguments directly.
+	public Passenger(String name) {
+		setName(name);
+		
+	}
+	
+	
+	
+	
 	
 //Working with Getter now 
 	public String getterName() {

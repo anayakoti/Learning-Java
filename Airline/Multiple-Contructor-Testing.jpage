@@ -1,0 +1,6 @@
+Passenger p1 = new Passenger();
+p1.setName("Anudeep Nayakoti");
+//Passing arguments on fly using multi constructor approach.
+
+Passenger p2 = new Passenger("Ankith Jayavel");
+System.out.println(p2);
