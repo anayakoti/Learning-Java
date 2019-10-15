@@ -7,8 +7,10 @@ import org.junit.Test;
 public class DatabaseTest {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testDatabase() {
+		Database testDB=new Database();
+		assertEquals(0, testDB.getSeats().size());
+		
 	}
 
 }
