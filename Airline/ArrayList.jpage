@@ -1,0 +1,7 @@
+//We are creating a Sample Arraylist:
+
+ArrayList<String> name=new Arraylist<String>();
+//This following collection can hold many number of objects of String Type.
+ArrayList<Flight> name=new Arraylist<Flight>(); //This collection is used for storing all the Objects created within the Flight Class.
+//we can create other Primitive type of Array list as follows:
+ArrayList<Integer> name=new Arraylist<Integer>();
