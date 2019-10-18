@@ -35,6 +35,13 @@ public class Database {
 		// TODO Auto-generated method stub
 		return tickets;
 	}
+	   
+	   public void addSeat(int seatNumber) {
+		   //To the seats arrayList it will add the seats 
+		   //We are creating new seat object
+		   seats.add(new Seat(seatNumber));
+		   
+	   }
        
        
 }

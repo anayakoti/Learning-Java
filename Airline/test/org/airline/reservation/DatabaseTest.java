@@ -16,5 +16,16 @@ public class DatabaseTest {
 	
 		
 	}
+	
+	@Test
+	public void testAddSeat() {
+	Database testDB1 = new Database ();
+	testDB1.addSeat(1);
+	assertEquals(1, testDB1.getSeats().size());
+	}
+
+	
+
+	
 
 }

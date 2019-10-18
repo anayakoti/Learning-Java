@@ -6,12 +6,12 @@ public class Seat {
  
 //Lets create a constructor
  public Seat() {
-	 seatNumber=1202;
+	setSeatNumber(10);
  }
  
 //Creating Second Constructor
- public Seat(int seatNumber) {
-	 
+ public Seat(int seat) {
+	setSeatNumber(seat);
  }
  //Getters and Setters
  public  int getSeatNumber()
