@@ -11,15 +11,14 @@ public class BooleanTest {
 	int y=3;
 	int z=4;
 	
-	//Checking if Z is not greater than squareroot of y 
-	double squarerootOfY=Math.sqrt(y);
- 
+	//Checking if y is positive or not
 	
-	if(z>squarerootOfY) {
-		System.out.println("The value of Z is greater than the squareRoot of Y");
+	if(y>0) {
+		System.out.println("The value of Y is positive");
+		
 	}
 	else {
-		System.out.println("It is not Greater");
+		System.out.println("The value of Y is Negative");
 	}
 	
 	  
