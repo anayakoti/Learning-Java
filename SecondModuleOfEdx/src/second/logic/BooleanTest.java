@@ -8,7 +8,7 @@ public class BooleanTest {
 	
 
 	int x=1;
-	int y=3;
+	int y=-3;
 	int z=4;
 	
 	//Checking if y is positive or not
