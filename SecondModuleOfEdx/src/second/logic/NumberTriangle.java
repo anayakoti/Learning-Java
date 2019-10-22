@@ -4,10 +4,20 @@ public class NumberTriangle {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-     for(int row=1; row<=7;row++)
+		
+		
+		for(int s=1; s<=3; s++) {
+		method1();
+		System.out.println("");
+		}
+	}
+	
+	public static void method1() {
+		
+     for(int row=0; row<=9;row++)
      {
     	 
-    	 for (int column=1; column<=row;column++)
+    	 for (int column=1; column<=3;column++)
     	 {
     		 System.out.print(row);
     		//1 Column loop ran once c=2
@@ -16,9 +26,13 @@ public class NumberTriangle {
     		 //4444
     		 
     	 }
-    	 System.out.println("");
-    	 }
+    	 System.out.print("");
+    	 
      
      }
 	}
+}
+
+
+	
 
